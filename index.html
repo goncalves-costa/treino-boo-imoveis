@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!-- CSS only -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts.css">
+    
+        <!-- JavaScript Bundle with Popper -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>  
+    
+    <title>Boo Imoveis - Home Page</title>
+
+</head>
+<body>
+
+    <!-- NavBar-->
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top color">
+        <div class="container-fluid">
+            <a class="navbar-brand font-needleteeh" href="#">Boo Imoveis</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="">Serviços</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Nossa História</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Suporte</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Assombre Conosco</a></li>
+                </ul>
+                <ul class="mt-auto ms-auto">
+                  <img src="icons/icons8-iphone-30.png" alt="">
+                  <span class="navbar-text mt-5 me-5">(XX)9999-6666</span>
+                  <img src="icons/icons8-agendar-email-48.png">
+                  <span class="navbar-text mt-5 me-2">booimoveis@contatomedium.com</span>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- SearchBar-->
+
+    <section class="search-bar">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <form action="">
+              <div>
+                <div class="input-group">
+                  <div class="dropdown">
+                    <button class="btn dropdown-toggle search-dropdown searchbar-height" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Todos
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Casas</a></li>
+                      <li><a class="dropdown-item" href="#">Apartamento</a></li>
+                      <li><a class="dropdown-item" href="#">Condomínio</a></li>
+                      <li><a class="dropdown-item" href="#">Aluguel</a></li>
+                    </ul>
+                  </div>
+                  <input type="search" placeholder="Procure por Imóveis" class="form-control searchbar-height">
+                  <div class="input-group-append">
+                    <button type="submit" class="btn btn-link bg-dark search-button searchbar-height"><img src="icons/icons8-pesquisar-64.png"></button>                   
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- Carousel -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/pinkpalace.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="carousel-titles ">Palácio Rosa</h5>
+              <p class="carousel-subtitle">Uma otíma casa de 3 andares para sua família, com ótimos vizinhos</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/addams-mansion.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="carousel-titles">Mansão Addams</h5>
+              <p class="carousel-subtitle">A fámilia Addams oferece um quarto em sua lar para quem tiver coragem. Preço acessível!</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/transilvaniacastle.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="carousel-titles">Hotel Transivânia</h5>
+              <p class="carousel-subtitle">Recentes os moradores se mudaram para a Califórnia, o dono oferece um dos alugueis mais baratos da cidade de Hawkins</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-10 mx-auto mt-5">
+            <h1 class="center-letter">Destaques da Boo Imóveis</h1>
+          </div>
+        </div>
+      </div>
+
+      <!-- Destaque Cards-->
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-10 col-lg-7 mx-auto">
+            <div class="card text-bg-light mt-5">
+              <img src="img/hill residence.jpg" class="card-img" alt="...">
+              <div class="card-img-overlay">
+                <h5 class="card-title" style="color: #f07a00;">Residência Hill</h5>
+                <p class="card-text"  style="color: white ;">$ 2.000.000,00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="col-sm-10  col-lg-8 ">
+              <div class="card text-bg-light mt-5 mb-4">
+                <img src="img/bly mansion.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <h5 class="card-title" style="color: #f07a00;">Mansão Bly</h5>
+                  <p class="card-text" style="color: white ;">$ 5.000.000,00</p>
+                </div>
+              </div>
+              </div>
+              <div class="col-sm-10 col-lg-8">
+                <div class="card text-bg-light">
+                  <img src="img/murder house.jpg" class="card-img" alt="...">
+                  <div class="card-img-overlay">
+                    <h5 class="card-title" style="color: #f07a00;">Murder House</h5>
+                    <p class="card-text"  style="color: white ;" >$900.000,00</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-10 mx-auto mt-5">
+            <h1 class="center-letter">Encontre o seu novo Lar</h1>
+          </div>
+        </div>
+      </div>
+
+      <!-- Descubra Nav -->
+
+      <div class="container">
+        <ul class="nav justify-content-center mt-4">
+          <li class="nav-item btn-orange">
+            <a class="nav-link me-3 " aria-current="page" href="#">Vendendo</a>
+          </li>
+          <li class="nav-item btn-orange">
+            <a class="nav-link" href="#">Alugando</a>
+          </li>
+        </ul>
+      </div>
+
+
+      <!-- Descubra Cards Cards -->
+
+      <div class="container descubra">
+        <div class="row">
+          <div class="col-sm-10 col-md-6 col-lg-4">
+            <div class="card mt-4">
+              <img src="img/transilvaniacastle.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Hotel Transivânia</h5>
+                <p class="card-text">Castelos contruído em 1450, cujas lendas locais apontam Drácula como o dono oficial. Tendo...</p>
+                <a href="#" class="btn">Veja mais</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-10 col-md-6 col-lg-4">
+            <div class="card mt-4">
+              <img src="img/pinkpalace.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Palácio Rosa</h5>
+                <p class="card-text">Casa de 10 cômodos e ótimos vizinhos. Possui um grande jardim para os amantes de flores, suas...</p>
+                <a href="#" class="btn">Veja mais</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-sm-10 col-md-6 col-lg-4">
+            <div class="card mt-4" >
+              <img src="img/willHouse.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"> Casa Byers</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn">Veja mais</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-10 col-md-6 col-lg-4">
+            <div class="card mt-4">
+              <img src="img/hill residence.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Residência Hill</h5>
+                <p class="card-text">Uma casa aconchegante em Hawkins. Com 2 quartos, cozinha e a sala. Apesar de precisar de reformas...</p>
+                <a href="#" class="btn">Veja mais</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-10 col-md-6 col-lg-4">
+            <div class="card mt-4">
+              <img src="img/addams-mansion.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Quarto na Mansão Addams</h5>
+                <p class="card-text">O quarto possui banheiro próprio e um gulhotina. Alguns ex-inquilinos ouviram gritos, mas...</p>
+                <a href="#" class="btn">Veja mais</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-10 col-md-6 col-lg-4">
+            <div class="card mt-4" >
+              <img src="img/murder house.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Murder House</h5>
+                <p class="card-text">A mansão de um renomado médico da cidade está a vendo com um preço super...</p>
+                <a href="#" class="btn col">Veja mais</a>
+              </div>
+            </div>
+          </div>     
+        </div>
+     
+      <div aria-label="Page navigation example ">
+        <ul class="pagination justify-content-center mt-4">
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      </div>
+
+
+      <!-- Formulário de Problemas-->
+
+      <div class="mt-5 pb-5" style="background-image: url('img/runaway.jpg'); background-size:auto; background-repeat: no-repeat;">
+        <div class="container">
+          <div class="row m">
+            <div class="col-md-12 mt-5">
+              <h1 class="display-4 font-weight-bold text-uppercase text-center">Está Precisando de socorro?</h1>
+              <p class="lead text-center">Por algum motivo as portas da sua casa abrem e fecham sozinhas? Os armários amanheces abertos? o cadeira de balanço, balança? Se tudo isso está acontencendo entre em contato com nossa equipe especializada. <strong>Prefericialmente o mais rápido possível</strong> </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <img src="icons/icons8-atualização-de-localização-64(1).png" alt="">
+              <h3>Localização</h3>
+              <p>Bairro, Cidade, País</p>
+              <img src="icons/icons8-igreja-50.png" alt="">
+              <h3>Chame um Exorcista</h3>
+              <p>+33 99999-6666</p>
+              <h3>E-mail</h3>
+              <p>socorro@alguemajuda.com</p>
+            </div>
+            <div class="col-md-8">
+              <div class="contactform">
+                <div class="row">
+                  <div class="col-md-8">
+                    <span id="lblResponse" class="tab-content"></span> 
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-5">
+                  <input type="text" id="tbName" class="form-control my-2" placeholder="Nome">
+                </div>
+                <br>
+                <div class="col-md-6">
+                  <input name="tbemail" type="text" class="form-control my-2" placeholder="E-mail">
+                </div>
+                <br>
+                <div class="row">
+                  <div class="col-md-12">
+                    <input type="text" class="form-control my-2" placeholder="Assunto">
+                  </div>
+                  <div>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <textarea id="msg" cols="20" rows="10" class="form-control my-2" placeholder="Mensagem"></textarea>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <input type="submit" name="btn" value="Peça Socorro" id="btn" class="btn btn-lg btn-socorro">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+ 
+      <!--Footer-->
+      <footer class="pt-5 pb-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-lg-4 col-xl-4 mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold">Sobre Nós</h5>
+              <hr class="mb-4">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio voluptatibus repellendus aliquam accusamus assumenda itaque, aliquid dolorum alias fugit doloremque vero consequatur explicabo illo quisquam enim nisi deserunt quas quibusdam.</p>
+            </div>
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold">Serviços</h5>  
+              <hr class="mb-4"> 
+              <ul>
+                <li class="li-footer"><a href="" class="text-dark link-footer">Empréstimo de Imóveis</a></li>
+                <li class="li-footer"><a href="" class="text-dark link-footer">Limpeza de Imóveis</a></li>
+                <li class="li-footer"><a href="" class="text-dark link-footer" >Encosto de Imóveis</a></li>
+                <li class="li-footer"><a href="" class="text-dark link-footer">Publicação de Imóveis</a></li>
+              </ul>
+            </div>
+
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold">Assombre Conosco</h5>  
+              <hr class="mb-4"> 
+              <ul>
+                <li class="li-footer"><a href="" class="text-dark link-footer">Carreiras</a></li>
+                <li class="li-footer"><a href="" class="text-dark link-footer">Seja um Corretor</a></li>
+                <li class="li-footer"><a href="" class="text-dark link-footer">Conheça nosso Mediums</a></li>
+              </ul>
+          </div>
+          <hr>
+          <p class="text-center"> Todos os direitos reservados
+          </p>
+        </div>
+      </footer>
+
+
+</body>
+</html>

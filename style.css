@@ -1,0 +1,192 @@
+
+body{
+    background-color: #151515;
+    color: white;
+}
+
+/* NAVBAR*/
+
+.navbar .navbar-nav .nav-link:hover{
+    background-color: #d45101;
+    color: white;
+}
+@media screen and (min-width:992px){
+    .navbar{
+        padding: 0;
+    }
+}
+
+nav{
+    background-color: #000000;
+}
+.navbar{
+    padding: 0;
+}
+
+.navbar .navbar-nav .nav-link{
+    padding: 1em;
+    transition: all .5s;
+    color: white;
+}
+
+.navbar-brand{
+    color: white !important;
+    font-size: 40px;
+}
+
+
+.navbar-text{
+    color: white;
+}
+
+.navbar-brand{
+    padding-left: 1em;
+}
+
+@media screen and (max-width:991px){
+    .navbar-brand{
+        padding: .7em;
+    }
+    .navbar-nav{
+        padding-top: .5em;
+    }
+}
+
+/* SEARCH-BAR*/
+
+.dropdown{
+    background-color: #f07a00!important;
+    color: white !important;
+    transition: 0.2s ease;
+    border-radius: 5px;
+    
+}
+
+
+.dropdown-menu{
+    background-color: #f07a00;
+}
+
+.dropdown-item{
+    color: white;
+}
+
+.dropdown-item:hover{
+    background-color:#151515;
+    color: white;
+}
+
+.btn{
+    color: white !important;
+    border: none;
+
+}
+
+.search-bar{
+    position: absolute;
+    z-index: 1;
+    top: 110px;
+    width: 100%;
+}
+.search-bar input::selection{
+    margin: #d45101;
+}
+.search-button{
+    border-radius: 0px 5px 5px 0px;
+}
+
+.search-dropdown{
+    border-radius: 5px 0px 0px 5px;
+}
+
+.center-letter{
+    text-align: center;
+}
+
+
+
+.searchbar-height{
+    height: 4.5em;
+}
+
+
+
+.btn-orange a{
+    background-color:#f07a00;
+    border-radius: 20px;
+    color: white; 
+}
+
+.btn-orange a:hover{
+    background-color:#d45101;
+    color: white;
+    scale: 1.1;
+}
+
+.pagination .page-item .page-link{
+    background-color: #d45101;
+    border: none;
+    color: white;
+}
+
+.pagination .page-item .page-link:hover{
+    color: #000000;
+}
+
+.carousel-titles{
+    color: #d45101;
+    font-size: 2.5em;
+    font-style: italic;
+}
+
+.carousel-subtitle{
+    font-size: 1.5em;
+}
+
+
+.descubra .card{
+    background-color:#f07a00;
+    color: white;
+}
+
+.descubra .card a{
+    background-color:#151515;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.descubra .card a:hover{
+    background-color: #000000;
+}
+
+.btn-socorro{
+    background-color: rgb(240, 84, 84);
+}
+
+.btn-socorro:hover{
+    background-color: red !important;
+}
+/* FOOTER */
+
+ul{
+    list-style: none;
+}
+.link-footer{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    text-align:start;
+}
+
+.li-footer:hover{
+    margin-left: 20px;
+    transition: 1s;
+}
+
+h5{
+    color: white ;
+}
+
+footer{
+    background-color:#d45101;
+}
