@@ -10,3 +10,5 @@ updates:
     target-branch: master
     schedule:
       interval: "daily"
+    commit-mensage:
+        prefix: "github-actions"
