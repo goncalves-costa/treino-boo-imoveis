@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - name: ballerina-dependabot
   # You may pin to the exact commit or the version.
   # uses: TharindaDilshan/ballerina-dependabot-action@389875f81046afd63cba4ea2dabe176790bb1c69
